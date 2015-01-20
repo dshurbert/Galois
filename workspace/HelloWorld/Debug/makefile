@@ -29,7 +29,7 @@ all: HelloWorld
 HelloWorld: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc  -o "HelloWorld" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -L/home/dshurbert/Lib/flint-2.4.4 -L/home/dshurbert/Lib/mpfr-3.1.2 -o "HelloWorld" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

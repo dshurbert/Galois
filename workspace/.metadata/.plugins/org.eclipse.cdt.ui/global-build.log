@@ -16,3 +16,345 @@ make: Nothing to be done for `all'.
 16:19:39 **** Incremental Build of configuration Debug for project HelloWorld ****
 make all 
 make: Nothing to be done for `all'.
+23:33:07 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/HelloWorld.c
+Invoking: GCC C Compiler
+gcc -I/home/dshurbert/Lib/flint-2.4.4 -I/home/dshurbert/Lib/mpfr-3.1.2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.d" -o "src/HelloWorld.o" "../src/HelloWorld.c"
+Finished building: ../src/HelloWorld.c
+ 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -o "HelloWorld"  ./src/HelloWorld.o   -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+/usr/bin/ld: cannot find -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+23:33:54 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -o "HelloWorld"  ./src/HelloWorld.o   -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+/usr/bin/ld: cannot find -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+23:35:06 **** Clean-only build of configuration Debug for project HelloWorld ****
+make clean 
+rm -rf  ./src/HelloWorld.o  ./src/HelloWorld.d  HelloWorld
+ 
+23:40:30 **** Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/HelloWorld.c
+Invoking: GCC C Compiler
+gcc -I/home/dshurbert/Lib/flint-2.4.4 -I/home/dshurbert/Lib/mpfr-3.1.2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.d" -o "src/HelloWorld.o" "../src/HelloWorld.c"
+Finished building: ../src/HelloWorld.c
+ 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -o "HelloWorld"  ./src/HelloWorld.o   -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+/usr/bin/ld: cannot find -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:11:22 **** Clean-only build of configuration Debug for project HelloWorld ****
+make clean 
+rm -rf  ./src/HelloWorld.o  ./src/HelloWorld.d  HelloWorld
+ 
+09:11:23 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/HelloWorld.c
+Invoking: GCC C Compiler
+gcc -I/home/dshurbert/Lib/flint-2.4.4 -I/home/dshurbert/Lib/mpfr-3.1.2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.d" -o "src/HelloWorld.o" "../src/HelloWorld.c"
+Finished building: ../src/HelloWorld.c
+ 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -o "HelloWorld"  ./src/HelloWorld.o   -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+/usr/bin/ld: cannot find -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:12:46 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -o "HelloWorld"  ./src/HelloWorld.o   -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+/usr/bin/ld: cannot find -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:12:51 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -o "HelloWorld"  ./src/HelloWorld.o   -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+/usr/bin/ld: cannot find -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:12:53 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+/usr/bin/ld: cannot find -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -o "HelloWorld"  ./src/HelloWorld.o   -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:13:59 **** Clean-only build of configuration Debug for project HelloWorld ****
+make clean 
+rm -rf  ./src/HelloWorld.o  ./src/HelloWorld.d  HelloWorld
+ 
+09:13:59 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/HelloWorld.c
+Invoking: GCC C Compiler
+gcc -I/home/dshurbert/Lib/flint-2.4.4 -I/home/dshurbert/Lib/mpfr-3.1.2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.d" -o "src/HelloWorld.o" "../src/HelloWorld.c"
+Finished building: ../src/HelloWorld.c
+ 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -o "HelloWorld"  ./src/HelloWorld.o   -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+/usr/bin/ld: cannot find -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:14:04 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -o "HelloWorld"  ./src/HelloWorld.o   -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+/usr/bin/ld: cannot find -l/home/dshurbert/Lib/flint-2.4.4/libflint.so
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:17:09 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/HelloWorld.c
+Invoking: GCC C Compiler
+gcc -I/home/dshurbert/Lib/flint-2.4.4 -I/home/dshurbert/Lib/mpfr-3.1.2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.d" -o "src/HelloWorld.o" "../src/HelloWorld.c"
+Finished building: ../src/HelloWorld.c
+ 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc  -o "HelloWorld"  ./src/HelloWorld.o   
+./src/HelloWorld.o: In function `_fmpz_demote':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:89: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `fmpz_one':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:282: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `main':
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:30: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:38: undefined reference to `fmpz_set_str'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:39: undefined reference to `fmpz_bits'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:47: undefined reference to `n_nextprime'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:48: undefined reference to `fmpz_fdiv_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:49: undefined reference to `fmpz_CRT_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:51: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:52: undefined reference to `fmpz_print'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:53: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:55: undefined reference to `fmpz_mul_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:45: undefined reference to `fmpz_bits'
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:18:34 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -L/home/dshurbert/Lib/mpfr-3.1.2 -o "HelloWorld"  ./src/HelloWorld.o   
+./src/HelloWorld.o: In function `_fmpz_demote':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:89: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `fmpz_one':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:282: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `main':
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:30: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:38: undefined reference to `fmpz_set_str'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:39: undefined reference to `fmpz_bits'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:47: undefined reference to `n_nextprime'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:48: undefined reference to `fmpz_fdiv_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:49: undefined reference to `fmpz_CRT_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:51: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:52: undefined reference to `fmpz_print'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:53: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:55: undefined reference to `fmpz_mul_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:45: undefined reference to `fmpz_bits'
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:18:40 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -L/home/dshurbert/Lib/mpfr-3.1.2 -o "HelloWorld"  ./src/HelloWorld.o   
+./src/HelloWorld.o: In function `_fmpz_demote':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:89: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `fmpz_one':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:282: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `main':
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:30: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:38: undefined reference to `fmpz_set_str'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:39: undefined reference to `fmpz_bits'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:47: undefined reference to `n_nextprime'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:48: undefined reference to `fmpz_fdiv_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:49: undefined reference to `fmpz_CRT_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:51: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:52: undefined reference to `fmpz_print'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:53: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:55: undefined reference to `fmpz_mul_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:45: undefined reference to `fmpz_bits'
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:18:41 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -L/home/dshurbert/Lib/mpfr-3.1.2 -o "HelloWorld"  ./src/HelloWorld.o   
+./src/HelloWorld.o: In function `_fmpz_demote':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:89: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `fmpz_one':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:282: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `main':
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:30: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:38: undefined reference to `fmpz_set_str'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:39: undefined reference to `fmpz_bits'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:47: undefined reference to `n_nextprime'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:48: undefined reference to `fmpz_fdiv_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:49: undefined reference to `fmpz_CRT_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:51: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:52: undefined reference to `fmpz_print'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:53: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:55: undefined reference to `fmpz_mul_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:45: undefined reference to `fmpz_bits'
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:18:43 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -L/home/dshurbert/Lib/mpfr-3.1.2 -o "HelloWorld"  ./src/HelloWorld.o   
+./src/HelloWorld.o: In function `_fmpz_demote':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:89: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `fmpz_one':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:282: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `main':
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:30: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:38: undefined reference to `fmpz_set_str'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:39: undefined reference to `fmpz_bits'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:47: undefined reference to `n_nextprime'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:48: undefined reference to `fmpz_fdiv_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:49: undefined reference to `fmpz_CRT_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:51: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:52: undefined reference to `fmpz_print'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:53: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:55: undefined reference to `fmpz_mul_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:45: undefined reference to `fmpz_bits'
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:21:45 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -L/home/dshurbert/Lib/mpfr-3.1.2 -o "HelloWorld"  ./src/HelloWorld.o   
+./src/HelloWorld.o: In function `_fmpz_demote':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:89: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `fmpz_one':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:282: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `main':
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:30: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:38: undefined reference to `fmpz_set_str'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:39: undefined reference to `fmpz_bits'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:47: undefined reference to `n_nextprime'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:48: undefined reference to `fmpz_fdiv_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:49: undefined reference to `fmpz_CRT_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:51: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:52: undefined reference to `fmpz_print'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:53: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:55: undefined reference to `fmpz_mul_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:45: undefined reference to `fmpz_bits'
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:21:49 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -L/home/dshurbert/Lib/mpfr-3.1.2 -o "HelloWorld"  ./src/HelloWorld.o   
+./src/HelloWorld.o: In function `_fmpz_demote':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:89: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `fmpz_one':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:282: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `main':
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:30: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:38: undefined reference to `fmpz_set_str'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:39: undefined reference to `fmpz_bits'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:47: undefined reference to `n_nextprime'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:48: undefined reference to `fmpz_fdiv_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:49: undefined reference to `fmpz_CRT_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:51: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:52: undefined reference to `fmpz_print'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:53: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:55: undefined reference to `fmpz_mul_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:45: undefined reference to `fmpz_bits'
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:23:03 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -L/home/dshurbert/Lib/mpfr-3.1.2 -o "HelloWorld"  ./src/HelloWorld.o   
+./src/HelloWorld.o: In function `_fmpz_demote':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:89: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `fmpz_one':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:282: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `main':
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:30: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:38: undefined reference to `fmpz_set_str'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:39: undefined reference to `fmpz_bits'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:47: undefined reference to `n_nextprime'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:48: undefined reference to `fmpz_fdiv_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:49: undefined reference to `fmpz_CRT_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:51: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:52: undefined reference to `fmpz_print'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:53: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:55: undefined reference to `fmpz_mul_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:45: undefined reference to `fmpz_bits'
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:23:07 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -L/home/dshurbert/Lib/mpfr-3.1.2 -o "HelloWorld"  ./src/HelloWorld.o   
+./src/HelloWorld.o: In function `_fmpz_demote':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:89: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `fmpz_one':
+/home/dshurbert/Lib/flint-2.4.4/fmpz.h:282: undefined reference to `_fmpz_clear_mpz'
+./src/HelloWorld.o: In function `main':
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:30: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:38: undefined reference to `fmpz_set_str'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:39: undefined reference to `fmpz_bits'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:47: undefined reference to `n_nextprime'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:48: undefined reference to `fmpz_fdiv_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:49: undefined reference to `fmpz_CRT_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:51: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:52: undefined reference to `fmpz_print'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:53: undefined reference to `flint_printf'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:55: undefined reference to `fmpz_mul_ui'
+/home/dshurbert/Galois/Galois/workspace/HelloWorld/Debug/../src/HelloWorld.c:45: undefined reference to `fmpz_bits'
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:26:18 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -L/home/dshurbert/Lib/mpfr-3.1.2 -o "HelloWorld"  ./src/HelloWorld.o   -l/home/dshurbert/Lib/flint-2.4.4/libflint.a
+/usr/bin/ld: cannot find -l/home/dshurbert/Lib/flint-2.4.4/libflint.a
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:26:31 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -L/home/dshurbert/Lib/mpfr-3.1.2 -o "HelloWorld"  ./src/HelloWorld.o   -l/home/dshurbert/Lib/flint-2.4.4/libflint.a
+/usr/bin/ld: cannot find -l/home/dshurbert/Lib/flint-2.4.4/libflint.a
+collect2: error: ld returned 1 exit status
+make: *** [HelloWorld] Error 1
+09:27:21 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building target: HelloWorld
+Invoking: GCC C Linker
+gcc -L/home/dshurbert/Lib/flint-2.4.4 -L/home/dshurbert/Lib/mpfr-3.1.2 -o "HelloWorld"  ./src/HelloWorld.o   -lflint
+Finished building target: HelloWorld
+ 
+09:27:26 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for `all'.
